@@ -71,3 +71,30 @@
   color: #888;
   font-style: italic;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.pagination button:hover {
+  background-color: #e0e0e0;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
