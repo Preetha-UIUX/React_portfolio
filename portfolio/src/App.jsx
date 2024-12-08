@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [score, setScore] = useState(0)
+  const [score, setScore] = useState(1)
 
   return (
     <>
@@ -22,7 +22,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <button onClick={() => setScore((score) => (score * 2))}>
+        <button onClick={() => setScore((score) => score * 2)}>
           Score is {score}
         </button>
         <p>
