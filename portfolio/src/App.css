@@ -40,3 +40,34 @@
 .read-the-docs {
   color: #888;
 }
+
+.posts-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-card {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.post-card p {
+  color: #666;
+}
+
+.post-card small {
+  color: #888;
+  font-style: italic;
+}
